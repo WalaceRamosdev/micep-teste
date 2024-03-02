@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.151);
+}
+
+.navBar {
+    background-color: rgba(0, 0, 0, 0.048);
+    height: 100px;
+    
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover {
+    text-shadow: 0px 1px 8px rgba(0, 0, 0, 0.452) ;
+    
+}
+
+.navBarSub {
+    margin: 15px;
+    text-align: center;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+#instagram, #youtube, #facebook {
+    margin: 15px;    
+}
+
+#logoPrincipal {
+    margin-bottom: 30px;
+    
+}
+
+
+.voltar {
+    margin: auto;
+}
+
+#paico {
+    text-align: center;
+    margin-right: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.logo {
+    padding: 13px 20px 20px 40px;
+}
+
+#frase {
+    text-align: center;
+    margin: 80px;
+    font-size: 1.3em;
+    text-shadow: 0px 6px 9px black;
+}
+
+.conteinerSobre {
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 15px 15px 0px 0px ;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 20px 20px 0px 20px;
+}
+
+.conteinerSobre2 {
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 0px 0px 15px 15px ;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 0px 20px 20px 20px;
+    
+}
+
+.txtSobre > h1 {
+    font-style: italic;
+    text-decoration: underline;
+    padding-bottom: 25px;
+}
+
+.txtSobre > p {
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.txtSobre {
+    background-color: rgba(0, 0, 0, 0.219);
+    border-radius: 30px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    box-shadow:3px 5px 8px 1px rgba(0, 0, 0, 0.521);
+
+}
+
+.imgSobre {
+    margin: 30px;    
+}
+
+.carrossel {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid black;
+    box-shadow: 3px 2px 4px 1px rgba(0, 0, 0, 0.521);
+}
+
+.txtLat {
+    margin: auto;
+    
+}
+
+.principal {
+    background-color: rgba(255, 255, 255, 0.623);
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 20px;
+    border-radius: 15px;
+    
+}
+
+#titlePost, #frasePost {
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#frasePost {
+    background-color: rgba(0, 0, 0, 0.219);
+    border-radius: 30px;
+    font-style: italic;
+    box-shadow:3px 5px 8px 1px rgba(0, 0, 0, 0.521);
+}
