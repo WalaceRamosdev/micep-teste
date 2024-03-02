@@ -184,7 +184,7 @@ span {
 
 /*Aplicando a responsividade ao site*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
 
 .principal {
     display: grid;
@@ -192,9 +192,31 @@ span {
     row-gap: auto;
 }
 
+#logoPrincipal {
+    width: 100px;
+}
+
+.navBarSub {
+    margin-top: 0px;
+}
+
+.txtLat {
+    width: 300px;
+}
+
+#frasePost {
+    margin-right: 20px;
+}
+
+.carrossel {
+    padding-right: 20px;
+    border-style: none;
+    box-shadow: none;
+}
+
 footer {
     margin-top: 60px;
-    width: 390px;
+    width: 330px;
 }
 
 .conteinerSobre {
@@ -214,18 +236,14 @@ footer {
 .txtSobre {
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 35px;
+    margin-right: 10px;
     width: 300px;
 }
 
 
-
-
-
-
-
-
-
-
+img {
+    width: 250px;
+    
+}
 
 }
