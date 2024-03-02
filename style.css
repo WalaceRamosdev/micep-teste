@@ -181,3 +181,51 @@ span {
     font-weight: bold;
     font-style: normal;
 }
+
+/*Aplicando a responsividade ao site*/
+
+@media screen and (max-width: 500px) {
+
+.principal {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: auto;
+}
+
+footer {
+    margin-top: 60px;
+    width: 390px;
+}
+
+.conteinerSobre {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: auto;
+    margin: 20px 20px 0px 20px;
+}
+
+.conteinerSobre2 {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: auto;
+    margin: 0px 20px 20px 20px; 
+}
+
+.txtSobre {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 35px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
