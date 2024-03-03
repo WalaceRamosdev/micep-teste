@@ -243,7 +243,6 @@ span {
     }
     
     img {
-    width: 260px;
-    margin: auto;
+    width: 100%;
     }
 }
