@@ -41,6 +41,12 @@ a:hover {
     
 }
 
+.missao {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.829);
+    
+}
+
 .navBarSub {
     text-align: center;
 }
@@ -78,7 +84,7 @@ a:hover {
     text-align: center;
     margin: 80px;
     font-size: 1.3em;
-    text-shadow: 0px 6px 9px black;
+    text-shadow: 0px 6px 9px rgba(0, 0, 0, 0.534);
 }
 
 .conteinerSobre {
