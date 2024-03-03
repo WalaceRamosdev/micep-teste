@@ -207,7 +207,7 @@ span {
     }
     
     .txtLat {
-        width: 300px;
+        width: 550px;
     }
     
     #frasePost {
@@ -219,6 +219,7 @@ span {
         margin-bottom: 25px;
         border-style: none;
         box-shadow: none;
+        width: 500px;
     }
     
     footer {
