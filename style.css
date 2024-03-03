@@ -207,7 +207,7 @@ span {
     }
     
     .txtLat {
-        width: 390px;
+        width: 320px;
     }
     
     #frasePost {
@@ -219,7 +219,7 @@ span {
         margin-bottom: 25px;
         border-style: none;
         box-shadow: none;
-        width: 390px;
+        width: 320px;
     }
     
     footer {
@@ -243,7 +243,7 @@ span {
     
     .txtSobre {
         margin: auto;
-        width: 390px;
+        width: 320px;
         margin-bottom: 30px;
         margin-top: 30px;
     }
