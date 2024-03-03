@@ -42,7 +42,6 @@ a:hover {
 }
 
 .navBarSub {
-    margin: 15px;
     text-align: center;
 }
 
@@ -185,7 +184,7 @@ span {
 
 /*Aplicando a responsividade ao site*/
 
-@media (max-width: 500px) {
+@media (max-width: 530px) {
 
     .principal {
         display: grid;
@@ -198,7 +197,7 @@ span {
     }
     
     .navBarSub {
-        margin-top: 0px;
+        margin: auto
     }
     
     .txtLat {
@@ -243,6 +242,6 @@ span {
     }
     
     img {
-    width: 100%;
+        width: 100%;
     }
 }
