@@ -252,8 +252,9 @@ span {
         width: 100%;
     }
 
-#instagram, #youtube, #facebook {
-width: 60px;
-}
+    #instagram, #youtube, #facebook {
+        width: 60px;
+
+    }
 
 }
