@@ -54,7 +54,7 @@ a:hover {
 .nav-link {
     font-weight: bold;
 }
-
+ 
 #instagram, #youtube, #facebook {
     margin: 15px;    
 }
@@ -251,4 +251,9 @@ span {
     img {
         width: 100%;
     }
+
+#instagram, #youtube, #facebook {
+width:100%;
+}
+
 }
