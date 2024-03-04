@@ -251,4 +251,10 @@ span {
     img {
         width: 100%;
     }
+
+    .dropdown-menu, img {
+        width: 30px;
+        padding: 5px;
+        
+    }
 }
