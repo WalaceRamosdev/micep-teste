@@ -188,9 +188,14 @@ span {
     font-style: normal;
 }
 
+
 /*Aplicando a responsividade ao site*/
 
 @media (max-width: 700px) {
+
+    .nav-item {
+        margin: auto;
+    }
 
     .principal {
         display: grid;
@@ -248,14 +253,14 @@ span {
         margin-top: 30px;
     }
     
-    img {
+    .imgSobre > img {
         width: 100%;
     }
 
     .dropdown-menu, img {
         width: 30px;
         padding: 5px;
-        
+        margin: auto;
     }
     
 }
